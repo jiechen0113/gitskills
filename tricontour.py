@@ -3,7 +3,7 @@ import json
 import matplotlib.pyplot as plt
 import time
 import numpy as np
-# 计算函数运行的时间
+
 def timer(func):
     def wrapper(*args, **kwds):
         t0 = time.time()
